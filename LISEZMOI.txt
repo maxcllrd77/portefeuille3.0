@@ -1,16 +1,11 @@
-MISE EN PLACE (une seule fois, environ 15 minutes, sur ordinateur)
+PORTFOLIO 3.0 — installation
 
-1. Cree un compte sur github.com (gratuit).
-2. Clique sur "New repository". Nom : portefeuille. Public. Coche "Add a README". Cree.
-3. Clique sur "Add file" > "Upload files". Glisse TOUT le contenu du dossier dezippe
-   (index.html, fetch.py, news.html, le dossier data et le dossier .github). Valide ("Commit changes").
-   Si le dossier .github n'apparait pas, ajoute-le avec "Add file" > "Create new file" et ecris
-   .github/workflows/update.yml comme nom, puis colle le contenu du fichier update.yml.
-4. Settings > Pages > Source : "Deploy from a branch", branche "main", dossier "/ (root)". Enregistre.
-5. Settings > Actions > General > "Workflow permissions" : coche "Read and write permissions". Enregistre.
-6. Onglet Actions > "Mise a jour des cours" > "Run workflow". Attends 1 minute : data/prices.json apparait.
-7. Ton site : https://TON-PSEUDO.github.io/portefeuille/
+1) Faites une sauvegarde de l'ancien dépôt GitHub.
+2) Remplacez les fichiers de votre dépôt par le contenu de ce ZIP.
+3) Commit et push sur GitHub.
+4) Vérifiez Settings > Pages.
 
-Ensuite les cours se mettent a jour tout seuls chaque soir.
-Chaque semaine : tu m'envoies ton CSV Trade Republic et "mets a jour". Je te renvoie data/portfolio.json
-et news.html : tu les remplaces sur GitHub (clique sur le fichier > crayon, ou Upload files).
+Valeur de référence : 2 990,47 €, montant indiqué par l'utilisateur. Il ne s'agit pas d'une connexion à Trade Republic. Montant investi enregistré dans le fichier positions : 3 373,19 € (écart -382,72 € par rapport à cette valeur).
+
+Veille, notes, articles saisis et réglages sont enregistrés dans LocalStorage du navigateur. Export JSON pour sauvegarde. Pas de synchronisation.
+Cours automatiques : GitHub Actions via fetch.py; sources, correspondances et dates à vérifier. Certaines positions ne sont pas couvertes par ce fetch.
