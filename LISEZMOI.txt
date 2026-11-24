@@ -1,11 +1,13 @@
-PORTFOLIO 3.0 — installation
+PORTFOLIO 3.0 — version automatisee
 
-1) Faites une sauvegarde de l'ancien dépôt GitHub.
-2) Remplacez les fichiers de votre dépôt par le contenu de ce ZIP.
-3) Commit et push sur GitHub.
-4) Vérifiez Settings > Pages.
+1. Sauvegarder le depot GitHub existant.
+2. Remplacer les fichiers par cette archive (inclure .github).
+3. Commit et push.
+4. GitHub > Actions > Automatisation portefeuille > Run workflow (initialisation).
+5. Verifier les executions Actions et data/prices.json et data/news.json.
 
-Valeur de référence : 2 990,47 €, montant indiqué par l'utilisateur. Il ne s'agit pas d'une connexion à Trade Republic. Montant investi enregistré dans le fichier positions : 3 373,19 € (écart -382,72 € par rapport à cette valeur).
-
-Veille, notes, articles saisis et réglages sont enregistrés dans LocalStorage du navigateur. Export JSON pour sauvegarde. Pas de synchronisation.
-Cours automatiques : GitHub Actions via fetch.py; sources, correspondances et dates à vérifier. Certaines positions ne sont pas couvertes par ce fetch.
+Cours Yahoo Finance : planification jours ouvrés 18:30 UTC. RSS Google News: 07:15 UTC.
+Trade Republic n'est pas connecté; 2 990,47 EUR est une référence manuelle.
+Le calcul estimé valorise seulement les positions disposant d'un cours.
+SpaceX non cotée: pas de cours fiable public. Les erreurs de symboles figurent dans prices.json.
+GitHub Pages ne fournit pas à lui seul sync multiappareil, notification push ou API IA.
