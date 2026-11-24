@@ -1,0 +1,238 @@
+{
+  "generated": "2026-11-23T10:44:26Z",
+  "A": [
+    [
+      "Air Liquide",
+      "AI",
+      "Actions",
+      5.0,
+      0.02827,
+      null
+    ],
+    [
+      "Alibaba Group",
+      "BABA",
+      "Actions",
+      79.99,
+      4.658087,
+      null
+    ],
+    [
+      "Apple",
+      "AAPL",
+      "Actions",
+      5.0,
+      0.024715,
+      null
+    ],
+    [
+      "Avenir Telecom",
+      "ATEL",
+      "Actions",
+      10.79,
+      73.055555,
+      null
+    ],
+    [
+      "Bitcoin",
+      "BTC",
+      "Crypto",
+      481.43,
+      0.006906,
+      385.05
+    ],
+    [
+      "Core S&P 500",
+      "SPX",
+      "ETF & Or",
+      400.0,
+      0.584314,
+      408.52
+    ],
+    [
+      "Core Stoxx Europe 600",
+      "SXXP",
+      "ETF & Or",
+      280.0,
+      0.906735,
+      282.77
+    ],
+    [
+      "Ethereum",
+      "ETH",
+      "Crypto",
+      138.0,
+      0.065528,
+      102.58
+    ],
+    [
+      "Fluence Energy",
+      "FLNC",
+      "Actions",
+      15.0,
+      0.824175,
+      null
+    ],
+    [
+      "Hedera",
+      "HBAR",
+      "Crypto",
+      70.0,
+      888.647144,
+      41.59
+    ],
+    [
+      "LVMH Moët Hennessy",
+      "LVMH",
+      "Actions",
+      10.0,
+      0.015817,
+      null
+    ],
+    [
+      "MSCI Africa Top 50",
+      "AFR",
+      "ETF & Or",
+      84.99,
+      8.590099,
+      72.76
+    ],
+    [
+      "MSCI Emerging Markets",
+      "EM",
+      "ETF & Or",
+      315.0,
+      43.958392,
+      297.16
+    ],
+    [
+      "Physical Gold",
+      "GOLD",
+      "ETF & Or",
+      176.0,
+      1.19912,
+      156.68
+    ],
+    [
+      "Render",
+      "RNDR",
+      "Crypto",
+      132.97,
+      86.895327,
+      103.66
+    ],
+    [
+      "Safran",
+      "SAF",
+      "Actions",
+      539.0,
+      1.722034,
+      515.4
+    ],
+    [
+      "Solana",
+      "SOL",
+      "Crypto",
+      60.0,
+      0.708629,
+      46.59
+    ],
+    [
+      "SpaceX",
+      "SPCX",
+      "Actions",
+      135.02,
+      1.097469,
+      132.75
+    ],
+    [
+      "Uranium",
+      "URA",
+      "ETF & Or",
+      45.0,
+      1.569853,
+      null
+    ],
+    [
+      "XRP",
+      "XRP",
+      "Crypto",
+      106.0,
+      80.844158,
+      68.95
+    ],
+    [
+      "Private Equity (Apollo)",
+      "APO",
+      "Actions",
+      284.0,
+      1.75,
+      289.69
+    ]
+  ],
+  "M": {
+    "2025-09": {
+      "Actions": 31.0,
+      "Crypto": 4.93
+    },
+    "2025-10": {
+      "Actions": -0.0
+    },
+    "2025-12": {
+      "Actions": 18.0,
+      "Crypto": 61.92
+    },
+    "2026-01": {
+      "Actions": 80.78,
+      "Crypto": 48.97,
+      "ETF & Or": 20.0
+    },
+    "2026-02": {
+      "Actions": 369.0,
+      "Crypto": 59.93,
+      "ETF & Or": 199.99
+    },
+    "2026-03": {
+      "Actions": 15.0,
+      "Crypto": 69.96,
+      "ETF & Or": 291.0
+    },
+    "2026-04": {
+      "Actions": 165.0,
+      "Crypto": 34.96,
+      "ETF & Or": 55.0
+    },
+    "2026-05": {
+      "Actions": 30.0,
+      "Crypto": 74.95,
+      "ETF & Or": 140.0
+    },
+    "2026-06": {
+      "Actions": 170.02,
+      "Crypto": 109.96,
+      "ETF & Or": 130.0
+    },
+    "2026-07": {
+      "Actions": -0.0
+    },
+    "2026-08": {
+      "Actions": -0.0,
+      "Crypto": 113.0
+    },
+    "2026-09": {
+      "Actions": 15.0,
+      "Crypto": 74.95,
+      "ETF & Or": 145.0
+    },
+    "2026-10": {
+      "Actions": 30.0,
+      "Crypto": 229.89,
+      "ETF & Or": 120.0
+    },
+    "2026-11": {
+      "Actions": 20.0,
+      "Crypto": 104.98,
+      "ETF & Or": 200.0
+    }
+  }
+}
